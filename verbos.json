@@ -1,0 +1,667 @@
+[
+  {
+    "present": "be",
+    "pasado": "was,were",
+    "perfect": "been"
+  },
+  {
+    "present": "beat",
+    "pasado": "beat",
+    "perfect": "beaten"
+  },
+  {
+    "present": "become",
+    "pasado": "became",
+    "perfect": "become"
+  },
+  {
+    "present": "begin",
+    "pasado": "began",
+    "perfect": "begun"
+  },
+  {
+    "present": "bend",
+    "pasado": "bent",
+    "perfect": "bent"
+  },
+  {
+    "present": "bet",
+    "pasado": "bet",
+    "perfect": "bet"
+  },
+  {
+    "present": "bite",
+    "pasado": "bit",
+    "perfect": "bitten"
+  },
+  {
+    "present": "bleed",
+    "pasado": "bled",
+    "perfect": "bled"
+  },
+  {
+    "present": "blow",
+    "pasado": "blew",
+    "perfect": "blown"
+  },
+  {
+    "present": "break",
+    "pasado": "broke",
+    "perfect": "broken"
+  },
+  {
+    "present": "bring",
+    "pasado": "brought",
+    "perfect": "brought"
+  },
+  {
+    "present": "build",
+    "pasado": "built",
+    "perfect": "built"
+  },
+  {
+    "present": "burn",
+    "pasado": "burnt/burned",
+    "perfect": "burnt/burned"
+  },
+  {
+    "present": "buy",
+    "pasado": "bought",
+    "perfect": "bought"
+  },
+  {
+    "present": "catch",
+    "pasado": "caught",
+    "perfect": "caught"
+  },
+  {
+    "present": "choose",
+    "pasado": "chose",
+    "perfect": "chosen"
+  },
+  {
+    "present": "come",
+    "pasado": "came",
+    "perfect": "come"
+  },
+  {
+    "present": "cost",
+    "pasado": "cost",
+    "perfect": "cost"
+  },
+  {
+    "present": "creep",
+    "pasado": "crept",
+    "perfect": "crept"
+  },
+  {
+    "present": "cut",
+    "pasado": "cut",
+    "perfect": "cut"
+  },
+  {
+    "present": "deal",
+    "pasado": "dealt",
+    "perfect": "dealt"
+  },
+  {
+    "present": "dig",
+    "pasado": "dug",
+    "perfect": "dug"
+  },
+  {
+    "present": "do",
+    "pasado": "did",
+    "perfect": "done"
+  },
+  {
+    "present": "draw",
+    "pasado": "drew",
+    "perfect": "drawn"
+  },
+  {
+    "present": "dream",
+    "pasado": "dreamt/dreamed",
+    "perfect": "dreamt/dreamed"
+  },
+  {
+    "present": "drink",
+    "pasado": "drank",
+    "perfect": "drunk"
+  },
+  {
+    "present": "drive",
+    "pasado": "drove",
+    "perfect": "driven"
+  },
+  {
+    "present": "eat",
+    "pasado": "ate",
+    "perfect": "eaten"
+  },
+  {
+    "present": "fall",
+    "pasado": "fell",
+    "perfect": "fallen"
+  },
+  {
+    "present": "feed",
+    "pasado": "fed",
+    "perfect": "fed"
+  },
+  {
+    "present": "feel",
+    "pasado": "felt",
+    "perfect": "felt"
+  },
+  {
+    "present": "fight",
+    "pasado": "fought",
+    "perfect": "fought"
+  },
+  {
+    "present": "find",
+    "pasado": "found",
+    "perfect": "found"
+  },
+  {
+    "present": "fit",
+    "pasado": "fit/fitted",
+    "perfect": "fit/fitted"
+  },
+  {
+    "present": "flee",
+    "pasado": "fled",
+    "perfect": "fled"
+  },
+  {
+    "present": "fling",
+    "pasado": "flung",
+    "perfect": "flung"
+  },
+  {
+    "present": "fly",
+    "pasado": "flew",
+    "perfect": "flown"
+  },
+  {
+    "present": "forbid",
+    "pasado": "forbade",
+    "perfect": "forbidden"
+  },
+  {
+    "present": "forget",
+    "pasado": "forgot",
+    "perfect": "forgotten"
+  },
+  {
+    "present": "forgive",
+    "pasado": "forgave",
+    "perfect": "forgiven"
+  },
+  {
+    "present": "freeze",
+    "pasado": "froze",
+    "perfect": "frozen"
+  },
+  {
+    "present": "get",
+    "pasado": "got",
+    "perfect": "got"
+  },
+  {
+    "present": "give",
+    "pasado": "gave",
+    "perfect": "given"
+  },
+  {
+    "present": "shine",
+    "pasado": "shone/shined",
+    "perfect": "shone/shined"
+  },
+  {
+    "present": "shoot",
+    "pasado": "shot",
+    "perfect": "shot"
+  },
+  {
+    "present": "show",
+    "pasado": "showed",
+    "perfect": "shown"
+  },
+  {
+    "present": "shrink",
+    "pasado": "shrank",
+    "perfect": "shrunk"
+  },
+  {
+    "present": "shut",
+    "pasado": "shut",
+    "perfect": "shut"
+  },
+  {
+    "present": "sing",
+    "pasado": "sang",
+    "perfect": "sung"
+  },
+  {
+    "present": "sit",
+    "pasado": "sat",
+    "perfect": "sat"
+  },
+  {
+    "present": "sleep",
+    "pasado": "slept",
+    "perfect": "slept"
+  },
+  {
+    "present": "slide",
+    "pasado": "slid",
+    "perfect": "slid"
+  },
+  {
+    "present": "sling",
+    "pasado": "slung",
+    "perfect": "slung"
+  },
+  {
+    "present": "smell",
+    "pasado": "smelled",
+    "perfect": "smelt"
+  },
+  {
+    "present": "speak",
+    "pasado": "spoke",
+    "perfect": "spoken"
+  },
+  {
+    "present": "speed",
+    "pasado": "sped",
+    "perfect": "sped"
+  },
+  {
+    "present": "spell",
+    "pasado": "spelled",
+    "perfect": "spelled"
+  },
+  {
+    "present": "spend",
+    "pasado": "spent",
+    "perfect": "spent"
+  },
+  {
+    "present": "spin",
+    "pasado": "spun",
+    "perfect": "spun"
+  },
+  {
+    "present": "spit",
+    "pasado": "spat",
+    "perfect": "spat"
+  },
+  {
+    "present": "split",
+    "pasado": "split",
+    "perfect": "split"
+  },
+  {
+    "present": "spoil",
+    "pasado": "spoiled",
+    "perfect": "spoiled"
+  },
+  {
+    "present": "spread",
+    "pasado": "spread",
+    "perfect": "spread"
+  },
+  {
+    "present": "spring",
+    "pasado": "sprang",
+    "perfect": "spring"
+  },
+  {
+    "present": "stand",
+    "pasado": "stood",
+    "perfect": "stood"
+  },
+  {
+    "present": "steal",
+    "pasado": "stole",
+    "perfect": "stolen"
+  },
+  {
+    "present": "stick",
+    "pasado": "stuck",
+    "perfect": "stuck"
+  },
+  {
+    "present": "sting",
+    "pasado": "stung",
+    "perfect": "stung"
+  },
+  {
+    "present": "strike",
+    "pasado": "struck",
+    "perfect": "struck"
+  },
+  {
+    "present": "swear",
+    "pasado": "swore",
+    "perfect": "sworn"
+  },
+  {
+    "present": "sweep",
+    "pasado": "swept",
+    "perfect": "swept"
+  },
+  {
+    "present": "swim",
+    "pasado": "swam",
+    "perfect": "swum"
+  },
+  {
+    "present": "take",
+    "pasado": "took",
+    "perfect": "taken"
+  },
+  {
+    "present": "teach",
+    "pasado": "taught",
+    "perfect": "taught"
+  },
+  {
+    "present": "tear",
+    "pasado": "tore",
+    "perfect": "torn"
+  },
+  {
+    "present": "tell",
+    "pasado": "told",
+    "perfect": "told"
+  },
+  {
+    "present": "think",
+    "pasado": "thought",
+    "perfect": "thought"
+  },
+  {
+    "present": "throw",
+    "pasado": "threw",
+    "perfect": "thrown"
+  },
+  {
+    "present": "understand",
+    "pasado": "understood",
+    "perfect": "understood"
+  },
+  {
+    "present": "wake",
+    "pasado": "worke",
+    "perfect": "woken"
+  },
+  {
+    "present": "wear",
+    "pasado": "wore",
+    "perfect": "worn"
+  },
+  {
+    "present": "weave",
+    "pasado": "wove",
+    "perfect": "woven"
+  },
+  {
+    "present": "weep",
+    "pasado": "wept",
+    "perfect": "wept"
+  },
+  {
+    "present": "wet",
+    "pasado": "wet",
+    "perfect": "wet"
+  },
+  {
+    "present": "win",
+    "pasado": "won",
+    "perfect": "won"
+  },
+  {
+    "present": "write",
+    "pasado": "wrote",
+    "perfect": "written"
+  },
+  {
+    "present": "go",
+    "pasado": "went",
+    "perfect": "gone"
+  },
+  {
+    "present": "grow",
+    "pasado": "grew",
+    "perfect": "grown"
+  },
+  {
+    "present": "hang",
+    "pasado": "hung",
+    "perfect": "hung"
+  },
+  {
+    "present": "have",
+    "pasado": "had",
+    "perfect": "had"
+  },
+  {
+    "present": "hear",
+    "pasado": "heard",
+    "perfect": "heard"
+  },
+  {
+    "present": "hide",
+    "pasado": "hid",
+    "perfect": "hidden"
+  },
+  {
+    "present": "hit",
+    "pasado": "hit",
+    "perfect": "hit"
+  },
+  {
+    "present": "hold",
+    "pasado": "held",
+    "perfect": "held"
+  },
+  {
+    "present": "hurt",
+    "pasado": "hurt",
+    "perfect": "hurt"
+  },
+  {
+    "present": "keep",
+    "pasado": "kept",
+    "perfect": "kept"
+  },
+  {
+    "present": "kneel",
+    "pasado": "knelt/kneeled",
+    "perfect": "knelt/kneeled"
+  },
+  {
+    "present": "know",
+    "pasado": "knew",
+    "perfect": "known"
+  },
+  {
+    "present": "lay",
+    "pasado": "laid",
+    "perfect": "laid"
+  },
+  {
+    "present": "lead",
+    "pasado": "led",
+    "perfect": "led"
+  },
+  {
+    "present": "lean",
+    "pasado": "leant/leaned",
+    "perfect": "leant/leaned"
+  },
+  {
+    "present": "leap",
+    "pasado": "leapt/leaped",
+    "perfect": "leapt/leaped"
+  },
+  {
+    "present": "learn",
+    "pasado": "learnt/learned",
+    "perfect": "learnt/learned"
+  },
+  {
+    "present": "leave",
+    "pasado": "left",
+    "perfect": "left"
+  },
+  {
+    "present": "lend",
+    "pasado": "lent",
+    "perfect": "lent"
+  },
+  {
+    "present": "let",
+    "pasado": "let",
+    "perfect": "let"
+  },
+  {
+    "present": "lie",
+    "pasado": "lay",
+    "perfect": "lain"
+  },
+  {
+    "present": "light",
+    "pasado": "lit/lighted",
+    "perfect": "lit/lighted"
+  },
+  {
+    "present": "lose",
+    "pasado": "lost",
+    "perfect": "lost"
+  },
+  {
+    "present": "make",
+    "pasado": "made",
+    "perfect": "made"
+  },
+  {
+    "present": "mean",
+    "pasado": "meant",
+    "perfect": "meant"
+  },
+  {
+    "present": "meet",
+    "pasado": "met",
+    "perfect": "met"
+  },
+  {
+    "present": "mistake",
+    "pasado": "mistook",
+    "perfect": "mistaken"
+  },
+  {
+    "present": "pay",
+    "pasado": "paid",
+    "perfect": "paid"
+  },
+  {
+    "present": "prove",
+    "pasado": "proved",
+    "perfect": "proven/proved"
+  },
+  {
+    "present": "put",
+    "pasado": "put",
+    "perfect": "put"
+  },
+  {
+    "present": "quit",
+    "pasado": "quit",
+    "perfect": "quit"
+  },
+  {
+    "present": "read",
+    "pasado": "read",
+    "perfect": "read"
+  },
+  {
+    "present": "ride",
+    "pasado": "rode",
+    "perfect": "ridden"
+  },
+  {
+    "present": "ring",
+    "pasado": "rang",
+    "perfect": "rung"
+  },
+  {
+    "present": "rise",
+    "pasado": "rose",
+    "perfect": "risen"
+  },
+  {
+    "present": "run",
+    "pasado": "ran",
+    "perfect": "run"
+  },
+  {
+    "present": "say",
+    "pasado": "said",
+    "perfect": "said"
+  },
+  {
+    "present": "see",
+    "pasado": "saw",
+    "perfect": "seen"
+  },
+  {
+    "present": "sell",
+    "pasado": "sold",
+    "perfect": "sold"
+  },
+  {
+    "present": "send",
+    "pasado": "sent",
+    "perfect": "sent"
+  },
+  {
+    "present": "set",
+    "pasado": "set",
+    "perfect": "set"
+  },
+  {
+    "present": "sew",
+    "pasado": "sewed",
+    "perfect": "sewn"
+  },
+  {
+    "present": "shake",
+    "pasado": "shook",
+    "perfect": "shaken"
+  },
+  {
+    "present": "enjoy",
+    "pasado": "enjoyed",
+    "perfect": "enjoyed"
+  },
+  {
+    "present": "enter",
+    "pasado": "entered",
+    "perfect": "entered"
+  },
+  {
+    "present": "prepare",
+    "pasado": "prepared",
+    "perfect": "prepared"
+  },
+  {
+    "present": "change",
+    "pasado": "changed",
+    "perfect": "changed"
+  }
+]

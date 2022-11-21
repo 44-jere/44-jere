@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/estilos-flash.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Practice</title>
+</head>
+<body>
+    
+    <div class="contenedor" id="contenedor">
+
+        <div class="referencia">
+            <h1 id="tiempo-Verbal" class="texto">Identifica tiempo-Verbal</h1>
+        </div>
+
+        <div class="card" id="Carta-palabra">
+
+            <audio id="sound"></audio>
+
+            <nav>
+                <label><input id="mostrar" type="radio" name="meaning" value="si">Mostrar significado</label>
+                <label><input id="ocultar" checked type="radio" name="meaning" value="no" >Ocultar significado</label>
+                
+                <ul id="ul">
+                </ul>
+
+            </nav>
+
+            <section  id="seccion" style="display:none" >
+            </section>
+    
+            <span id="palabra"  class="texto reset">Press ▶</span>
+
+        </div>
+
+        <div class="opciones-card" id="botones">
+            <div class="opciones" ><span id="past" class="opciones-text reset"> Past</span></div>
+            <div class="opciones" ><span id="present" class="opciones-text reset"> Present</span></div>
+            <div class="opciones" ><span id="perfect" class="opciones-text reset"> Perfect</span></div>
+        </div>
+
+    </div>
+
+    <!-- <script type="text/javascript" src="./js/vanilla-tilt.js"></script> -->
+    <script type="text/javascript" src="./js/meaning.js"></script>
+    <script type="text/javascript" src="./js/logica.js"></script>
+    
+</body>
+</html>
