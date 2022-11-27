@@ -11,7 +11,6 @@ const seccion=document.getElementById("seccion")
 const carta=document.getElementById("Carta-palabra")
 const ocultar = document.getElementById("ocultar")
 const mostrar=document.getElementById("mostrar")
-const sonido=document.getElementById("sound")
 
 let lista=[]
 let presionado
@@ -19,6 +18,7 @@ let respuesta=""
 let palabrita=""
 let palabritas
 let VerboEnUso=""
+let urlSound
 
 class palabras{
     constructor (presente,pasado,perfect,foto){
@@ -72,10 +72,14 @@ cuerpo.addEventListener("click",e=>{
 
     if(target.id==="palabra"){
         generadorVerbos()
+        traerMeaning(filtrarVerbos(VerboEnUso))
     }
 
     if(mostrar.checked&&target.id==="mostrar"){
-        insertarMeaning(filtrarVerbos(VerboEnUso))
+        traerMeaning(filtrarVerbos(VerboEnUso),"meaning")
+        seccion.style.display="inline-block"
+        palabra.style.display="none"
+        ul.style.display="inline"
     }else if(ocultar.checked){
         ul.innerHTML=""
         ul.style.display="none"
@@ -101,9 +105,10 @@ document.addEventListener("keydown",e=>{
         presionado=70 //F
         generadorVerbos()
         verificarRespuesta("palabra")
+        traerMeaning(filtrarVerbos(VerboEnUso))
     }else if(e.keyCode===86){
         presionado=86 //V
-        reproducir()
+        reproducirSonido(urlSound)
     }
     
 })
@@ -194,30 +199,36 @@ function verificarRespuesta(boton){
 }
 
 
-function insertarMeaning(definicion){
-    seccion.style.display="inline-block"
-    palabra.style.display="none"
-    ul.style.display="inline"
+function traerMeaning(definicion,QueMostrar){
     fetch(`${url}${definicion}`)
     .then((response)=>response.json())
     .then((data)=>{
-        data.forEach(element => {
-            let forma=element.meanings[0].partOfSpeech
-            ul.innerHTML+=`<li><label ><input type="radio" name="type-verb" value="${forma}">${forma}</label></li> `
-        });
 
-        seccion.innerHTML+=`
-        <h1 >${definicion}</h1><i id="reproducir" class="fa-solid fa-play"></i>
-        <span> ${data[0].phonetic}></i></span>
-        <p>${data[0].meanings[0].definitions[0].definition}</p>
-        <p>${data[0].meanings[0].definitions[0].example || ""}</p>
-        `
-        sonido.setAttribute("src",  `https:${data[0]. phonetics[0].audio}`);
+        if(QueMostrar==="meaning"){
+            return insertarMeaning(definicion,data)
+        }
+        return urlSound = `${data[0]. phonetics[0].audio}`
+       
     })
 }
 
-function reproducir(){
-   sonido.play()
+function insertarMeaning(definisiones,datos){
+    datos.forEach(element => {
+        let forma=element.meanings[0].partOfSpeech
+        ul.innerHTML+=`<li><label ><input type="radio" name="type-verb" value="${forma}">${forma}</label></li> `
+    });
+
+    seccion.innerHTML+=`
+    <h1 >${definisiones}</h1><i class="fa-solid fa-play"></i>
+    <span> ${datos[0].phonetic}></i></span>
+    <p>${datos[0].meanings[0].definitions[0].definition}</p>
+    <p>${datos[0].meanings[0].definitions[0].example || ""}</p>
+    `
+}
+
+function reproducirSonido(url){
+    let audio = new Audio(url)
+   audio.play()
 }
 
 function filtrarVerbos(verb){
