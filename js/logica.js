@@ -72,7 +72,7 @@ cuerpo.addEventListener("click",e=>{
 
     if(target.id==="palabra"){
         generadorVerbos()
-        traerMeaning("take")
+        traerMeaning(filtrarVerbos(VerboEnUso))
     }
     
     if(target.id==="reproducir-sonido"){
@@ -80,7 +80,7 @@ cuerpo.addEventListener("click",e=>{
     }
 
     if(mostrar.checked&&target.id==="mostrar"){
-        traerMeaning("take","meaning")
+        traerMeaning(filtrarVerbos(VerboEnUso),"meaning")
         seccion.style.display="inline-block"
         palabra.style.display="none"
         ul.style.display="inline"
@@ -109,7 +109,7 @@ document.addEventListener("keydown",e=>{
         presionado=70 //F
         generadorVerbos()
         verificarRespuesta("palabra")
-        traerMeaning("take")
+        traerMeaning(filtrarVerbos(VerboEnUso))
     }else if(e.keyCode===86){
         presionado=86 //V
         reproducirSonido(urlSound)
