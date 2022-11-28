@@ -72,11 +72,15 @@ cuerpo.addEventListener("click",e=>{
 
     if(target.id==="palabra"){
         generadorVerbos()
-        traerMeaning(filtrarVerbos(VerboEnUso))
+        traerMeaning("take")
+    }
+    
+    if(target.id==="reproducir-sonido"){
+        reproducirSonido(urlSound)
     }
 
     if(mostrar.checked&&target.id==="mostrar"){
-        traerMeaning(filtrarVerbos(VerboEnUso),"meaning")
+        traerMeaning("take","meaning")
         seccion.style.display="inline-block"
         palabra.style.display="none"
         ul.style.display="inline"
@@ -105,7 +109,7 @@ document.addEventListener("keydown",e=>{
         presionado=70 //F
         generadorVerbos()
         verificarRespuesta("palabra")
-        traerMeaning(filtrarVerbos(VerboEnUso))
+        traerMeaning("take")
     }else if(e.keyCode===86){
         presionado=86 //V
         reproducirSonido(urlSound)
@@ -213,13 +217,13 @@ function traerMeaning(definicion,QueMostrar){
 }
 
 function insertarMeaning(definisiones,datos){
-    datos.forEach(element => {
-        let forma=element.meanings[0].partOfSpeech
-        ul.innerHTML+=`<li><label ><input type="radio" name="type-verb" value="${forma}">${forma}</label></li> `
+    datos[0].meanings.forEach((element,index) => {
+        let forma=element.partOfSpeech
+        ul.innerHTML+=`<li><label ><input type="radio" name="type-verb" id=${index} value="${forma}">${forma}</label></li> `
     });
 
     seccion.innerHTML+=`
-    <h1 >${definisiones}</h1><i class="fa-solid fa-play"></i>
+    <h1 >${definisiones}</h1><i class="fa-solid fa-play" id="reproducir-sonido"></i>
     <span> ${datos[0].phonetic}></i></span>
     <p>${datos[0].meanings[0].definitions[0].definition}</p>
     <p>${datos[0].meanings[0].definitions[0].example || ""}</p>
