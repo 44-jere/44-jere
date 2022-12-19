@@ -1,0 +1,21 @@
+main{
+    display: grid;
+    align-items: center;
+}
+
+table{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.correct{
+    background-color: green;
+}
+ 
+.incorrect{
+    background-color: red;
+}
